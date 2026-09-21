@@ -1,0 +1,34 @@
+
+{
+    "header": {
+        "label": "Growth Lab",
+        "description": "Made for the seo moments."
+    },
+    "footer":{
+        "label": "Growth Lab",
+        "copyright": "© 2026 Growth Lab. All rights reserved."
+    },
+    "about": {
+        "label": "01 / About",
+        "sublabel": "Independent ideas, carefully gathered",
+        "heading": "A slower kind of newsletter.",
+        "intro": "Growth Lab is a platform that provides insights and resources for growth hacking and digital marketing strategies.",
+        "subHeadingDescription1": "We are a team of passionate marketers and growth enthusiasts who believe in the power of data-driven decision making. Our goal is to help businesses grow by providing them with actionable insights and strategies.",
+        "subHeadingDescription2": "We believe in the power of community and collaboration. We encourage our readers to share their experiences and insights with us, and we are always open to feedback and suggestions.",
+        "subHeadingDescription3": "Our newsletter is designed to be a source of inspiration and knowledge for marketers, entrepreneurs, and anyone interested in the world of growth hacking. We cover a wide range of topics, including SEO, content marketing, social media, email marketing, and more."
+    },
+    "services": {
+        "label": "Services",
+        "heading": "Our Services",
+        "description": "We offer a range of services including SEO optimization, content marketing, and social media management."
+    },
+    "subscribe": {
+        "label": "02 / Subscribe",
+        "heading": "Something worth opening.",
+        "description": "Get the next note in your inbox. No noise, no algorithms, just a thoughtful letter when there is something to say."
+    },
+    "constants": {
+        "GOOGLE_FORM_URL": "https://forms.gle/yEPrPVZGweRbZwmp7"
+    }
+
+}

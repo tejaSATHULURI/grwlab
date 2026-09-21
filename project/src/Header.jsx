@@ -1,3 +1,4 @@
+import {header } from './assets/constants/constants.json';
 function Header({ activeSection }) {
   const sections = [
     { id: 'about', label: 'About' },
@@ -13,12 +14,13 @@ function Header({ activeSection }) {
       <a
         className="brand"
         href="#about"
+        aria-label={header.description}
         onClick={(event) => {
           event.preventDefault()
           scrollToSection('about')
         }}
       >
-        Growth Lab
+        {header.label}
       </a>
       <nav className="site-nav" aria-label="Primary navigation">
         {sections.map((section) => (
