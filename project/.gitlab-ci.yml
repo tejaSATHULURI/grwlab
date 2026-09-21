@@ -6,14 +6,15 @@ stages:
 
 cache:
   paths:
-    - node_modules/
+    - project/node_modules/
 
 build-job:
   stage: build
   script:
+    - cd project
     - npm install
     - npm run build
-    - mv build public
+    - mv build ../public
   artifacts:
     paths:
       - public
